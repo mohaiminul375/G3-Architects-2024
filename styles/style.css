@@ -201,10 +201,28 @@ main section {
     gap: 20px;
 }
 
-#sponsor .sponsor-img-container img{
+#sponsor .sponsor-img-container img {
     width: 165px;
 }
 
+/* sponsor end*/
+/* main end */
+/* footer start */
+footer {
+    /* margin-top: 130px; */
+    margin: 130px auto;
+    max-width: 1240px;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+footer p {
+    padding: 50px 0;
+    color: #424242;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;;
+}
 
 
 
@@ -243,7 +261,8 @@ main section {
         padding: 30px;
         gap: 1.50rem;
     }
-    #sponsor .sponsor-img-container img{
+
+    #sponsor .sponsor-img-container img {
         margin: 0 auto;
     }
 }
@@ -254,7 +273,7 @@ main section {
         padding: 50px;
     }
 
-    nav, 
+    nav,
     #teams-section,
     .sponsor-img-container {
         flex-direction: column;
@@ -269,7 +288,8 @@ main section {
         margin-top: 20px;
 
     }
-    #sponsor .sponsor-img-container img{
+
+    #sponsor .sponsor-img-container img {
         margin: 0 auto;
     }
 }
