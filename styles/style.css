@@ -279,6 +279,9 @@ footer p {
 /* responsive media query */
 /* mobile */
 @media screen and (max-width:576px) {
+    html{
+        font-size: 14px;
+    }
     header {
         padding: 20px;
     }
